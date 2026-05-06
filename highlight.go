@@ -17,3 +17,7 @@ func Highlight(original string, substring string, limit int, before string, afte
 
 	return highlighted
 }
+
+func HighlightColor(original string, substring string, limit int, color string, caseSensitive bool) string {
+	return Highlight(original, substring, limit, color, color, caseSensitive)
+}
