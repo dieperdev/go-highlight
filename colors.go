@@ -1,5 +1,12 @@
 package highlight
 
+// This is a small list of colors sourced from
+// https://talyian.github.io/ansicolors/
+//
+// As stated by the webpage, "Different consoles render these codes at different values"
+//
+// You may pass your own strings as replacements to the functions if you want
+// to have more color options.
 const (
 	FgBlack   string = "\x1b[30m"
 	FgRed     string = "\x1b[31m"
