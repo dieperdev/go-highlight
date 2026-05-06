@@ -1,5 +1,5 @@
 # go-highlight
-[![GoDoc](https://pkg.go.dev/github.com/dieperdev/go-highlight?status.svg)](https://pkg.go.dev/github.com/dieperdev/go-highlight)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/dieperdev/go-highlight)](https://pkg.go.dev/github.com/dieperdev/go-highlight)
 
 go-highlight can highlight substrings of text with customizable prefixes and suffixes in Go.
 
