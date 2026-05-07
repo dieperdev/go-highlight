@@ -2,6 +2,7 @@ package highlight_test
 
 import (
 	"fmt"
+
 	"github.com/dieperdev/go-highlight"
 )
 
