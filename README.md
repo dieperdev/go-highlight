@@ -31,5 +31,10 @@ fmt.Println(highlight.HighlightSameReplacements("Go is a programming language.",
 }
 ```
 
+## Using highlighted text
+If you want to print the highlighted text to the console, you need a library such as [k0kubun/go-ansi](https://github.com/k0kubun/go-ansi) to do it.
+`go-ansi` will correctly print the ANSI color escape codes (it also has Windows support).
+You should avoid using the `%q` verb (quoted string) when `fmt.Sprintf`'ing or manipulating the highlighted text as it will escape the highlights and not print correctly.
+
 ## License
 The [MIT License](LICENSE)
